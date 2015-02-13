@@ -10,6 +10,7 @@
 		1605D08206A2A8AA00AD8634 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E94ECC12C2732B444089F /* Main.storyboard */; };
 		5EB0032C5AA75B949A221070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A50526FBCC4CC33FDC36B22 /* Foundation.framework */; };
 		822CA761C07A783B7E2B0694 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CE6DDB39D89F04FDB1D94 /* LaunchScreen.xib */; };
+		B0A4D5CE1A8DC1D8006D5DBF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4D5CD1A8DC1D8006D5DBF /* Common.swift */; };
 		B31772E3DB3B0A6E276EE1F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B205D013FB6AB817D6F7EA41 /* Images.xcassets */; };
 		E0DA4E98C971569E28D908D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E037A2ACF506DA23F40A113 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		7A50526FBCC4CC33FDC36B22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E037A2ACF506DA23F40A113 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E4E94ECC12C2732B444089F /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B0A4D5CD1A8DC1D8006D5DBF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../Extensions/Common.swift; sourceTree = "<group>"; };
 		B205D013FB6AB817D6F7EA41 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B88E0838AA88681C2F7D09E3 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2132B0C39566E691FAA2BE7 /* carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 		8359E1BE4BCF7994D8D8B97F /* Other-Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B0A4D5CD1A8DC1D8006D5DBF /* Common.swift */,
 				5AD87FF673A89421471126F4 /* Info.plist */,
 			);
 			path = "Other-Sources";
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A4D5CE1A8DC1D8006D5DBF /* Common.swift in Sources */,
 				E0DA4E98C971569E28D908D3 /* AppDelegate.swift in Sources */,
 				1605D08206A2A8AA00AD8634 /* Main.storyboard in Sources */,
 				822CA761C07A783B7E2B0694 /* LaunchScreen.xib in Sources */,

@@ -15,6 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="E2C-he-sPC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20T-mY-9aa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro" translatesAutoresizingMaskIntoConstraints="NO" id="7ZN-Ax-Ldy">
+                                        <rect key="frame" x="0.0" y="-568" width="320" height="1136"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile1" translatesAutoresizingMaskIntoConstraints="NO" id="VW8-Kk-P1q">
+                                        <rect key="frame" x="45" y="180" width="153" height="152"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile2" translatesAutoresizingMaskIntoConstraints="NO" id="00B-dq-5i5">
+                                        <rect key="frame" x="199" y="180" width="76" height="75"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile3" translatesAutoresizingMaskIntoConstraints="NO" id="cwV-lZ-dNs">
+                                        <rect key="frame" x="199" y="256" width="76" height="76"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile4" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-Xl-jct">
+                                        <rect key="frame" x="45" y="335" width="76" height="76"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile5" translatesAutoresizingMaskIntoConstraints="NO" id="L1a-eK-3LG">
+                                        <rect key="frame" x="122" y="335" width="76" height="75"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="intro_tile6" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-2c-36Z">
+                                        <rect key="frame" x="199" y="335" width="76" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -23,6 +52,15 @@
             <point key="canvasLocation" x="120" y="364.46666666666664"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="intro" width="320" height="1136"/>
+        <image name="intro_tile1" width="153" height="152"/>
+        <image name="intro_tile2" width="76" height="75"/>
+        <image name="intro_tile3" width="76" height="76"/>
+        <image name="intro_tile4" width="76" height="76"/>
+        <image name="intro_tile5" width="76" height="75"/>
+        <image name="intro_tile6" width="76" height="75"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
