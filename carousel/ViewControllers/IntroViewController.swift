@@ -41,6 +41,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         var progress = 1 - (introScrollView.contentOffset.y / introScrollView.bounds.size.height)
+        
         for (viewIndex, view) in enumerate(imageViews) {
             let targetOffset = CGFloat(imageViewsVerticalOffset[viewIndex])
             var currentX =  CGFloat(imageViewsHorizontalOffset[viewIndex]) * progress
@@ -50,12 +51,6 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
             view.transform = CGAffineTransformMakeTranslation(currentX, currentY)
             view.transform = CGAffineTransformConcat(view.transform, CGAffineTransformMakeScale(currentScale, currentScale))
             view.transform = CGAffineTransformConcat(view.transform, CGAffineTransformMakeDegreeRotation(currentRotate))
-        }
-        
-        if (introScrollView.contentOffset.y >= 568) {
-            println("page 2")
-        } else {
-            println("page 1")
         }
     }
     
