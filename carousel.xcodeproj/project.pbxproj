@@ -10,7 +10,13 @@
 		1605D08206A2A8AA00AD8634 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E94ECC12C2732B444089F /* Main.storyboard */; };
 		5EB0032C5AA75B949A221070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A50526FBCC4CC33FDC36B22 /* Foundation.framework */; };
 		822CA761C07A783B7E2B0694 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CE6DDB39D89F04FDB1D94 /* LaunchScreen.xib */; };
+		B032E6CC1A9023E4005FCD3E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032E6CB1A9023E4005FCD3E /* IntroViewController.swift */; };
+		B032E6CE1A90240F005FCD3E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032E6CD1A90240F005FCD3E /* SignInViewController.swift */; };
+		B032E6D01A905143005FCD3E /* WelcomeScreensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032E6CF1A905143005FCD3E /* WelcomeScreensViewController.swift */; };
 		B0A4D5CE1A8DC1D8006D5DBF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4D5CD1A8DC1D8006D5DBF /* Common.swift */; };
+		B0C923521A9074FF00B450C2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C923511A9074FF00B450C2 /* FeedViewController.swift */; };
+		B0C923541A907FA000B450C2 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C923531A907FA000B450C2 /* ConversationsViewController.swift */; };
+		B0C923561A9083B900B450C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C923551A9083B900B450C2 /* SettingsViewController.swift */; };
 		B31772E3DB3B0A6E276EE1F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B205D013FB6AB817D6F7EA41 /* Images.xcassets */; };
 		E0DA4E98C971569E28D908D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E037A2ACF506DA23F40A113 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +38,13 @@
 		7A50526FBCC4CC33FDC36B22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E037A2ACF506DA23F40A113 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E4E94ECC12C2732B444089F /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B032E6CB1A9023E4005FCD3E /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B032E6CD1A90240F005FCD3E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B032E6CF1A905143005FCD3E /* WelcomeScreensViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreensViewController.swift; sourceTree = "<group>"; };
 		B0A4D5CD1A8DC1D8006D5DBF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../Extensions/Common.swift; sourceTree = "<group>"; };
+		B0C923511A9074FF00B450C2 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B0C923531A907FA000B450C2 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		B0C923551A9083B900B450C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B205D013FB6AB817D6F7EA41 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B88E0838AA88681C2F7D09E3 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2132B0C39566E691FAA2BE7 /* carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +182,7 @@
 		8F4557700289CAC3D5EE19FD /* carousel */ = {
 			isa = PBXGroup;
 			children = (
+				B032E6CA1A9023E4005FCD3E /* ViewControllers */,
 				F492D01864D18B87BFF3B21D /* Extensions */,
 				2FB24BFCE3CCCF407648E995 /* Protocols */,
 				4C2F92EE6FD1036484AE3007 /* Models */,
@@ -189,6 +202,19 @@
 				C219D788A40FF1D634CAE275 /* Tests */,
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		B032E6CA1A9023E4005FCD3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0C923531A907FA000B450C2 /* ConversationsViewController.swift */,
+				B0C923551A9083B900B450C2 /* SettingsViewController.swift */,
+				B0C923511A9074FF00B450C2 /* FeedViewController.swift */,
+				B032E6CF1A905143005FCD3E /* WelcomeScreensViewController.swift */,
+				B032E6CD1A90240F005FCD3E /* SignInViewController.swift */,
+				B032E6CB1A9023E4005FCD3E /* IntroViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		C219D788A40FF1D634CAE275 /* Tests */ = {
@@ -334,10 +360,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B032E6CE1A90240F005FCD3E /* SignInViewController.swift in Sources */,
 				B0A4D5CE1A8DC1D8006D5DBF /* Common.swift in Sources */,
+				B032E6CC1A9023E4005FCD3E /* IntroViewController.swift in Sources */,
+				B0C923561A9083B900B450C2 /* SettingsViewController.swift in Sources */,
 				E0DA4E98C971569E28D908D3 /* AppDelegate.swift in Sources */,
 				1605D08206A2A8AA00AD8634 /* Main.storyboard in Sources */,
 				822CA761C07A783B7E2B0694 /* LaunchScreen.xib in Sources */,
+				B0C923541A907FA000B450C2 /* ConversationsViewController.swift in Sources */,
+				B0C923521A9074FF00B450C2 /* FeedViewController.swift in Sources */,
+				B032E6D01A905143005FCD3E /* WelcomeScreensViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
